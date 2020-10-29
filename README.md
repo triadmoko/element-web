@@ -141,7 +141,7 @@ docker run -p 80:80 -v /etc/element-web/config.json:/app/config.json vectorim/el
 
 To build the image yourself:
 ```bash
-git clone https://github.com/vector-im/element-web.git element-web
+git clone https://github.com/triadmoko/element-web.git element-web
 cd element-web
 git checkout master
 docker build .
